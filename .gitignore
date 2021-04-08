@@ -1,0 +1,43 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+Hahn.ApplicationProcess.February2021.Domain/bin/
+Hahn.ApplicationProcess.February2021.Data/bin/
+Hahn.ApplicationProcess.Application/bin/
+Hahn.ApplicationProcess.February2021.Domain/obj/
+Hahn.ApplicationProcess.February2021.Data/obj/
+Hahn.ApplicationProcess.Application/obj/
+
+# Visual Studio 2015
+.vs/

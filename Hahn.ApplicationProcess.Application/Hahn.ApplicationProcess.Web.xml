@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicationProcess.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Hahn.ApplicationProcess.Web.Controllers.AssetsController">
+            <summary>
+            Api to get asset records
+            </summary>
+        </member>
+        <member name="M:Hahn.ApplicationProcess.Web.Controllers.AssetsController.Get(System.Int32)">
+            <summary>
+            Get Assets based on specified ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hahn.ApplicationProcess.Web.Controllers.AssetsController.Post(Hahn.ApplicationProcess.February2021.Domain.Models.Asset)">
+            <summary>
+            Add new assets
+            </summary>
+            <param name="asset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hahn.ApplicationProcess.Web.Controllers.AssetsController.Put(System.Int32,Hahn.ApplicationProcess.February2021.Domain.Models.Asset)">
+            <summary>
+            Update new asset data
+            </summary>
+            <param name="id"></param>
+            <param name="asset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hahn.ApplicationProcess.Web.Controllers.AssetsController.Delete(System.Int32)">
+            <summary>
+            Delete assets based on the specified ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
